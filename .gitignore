@@ -1,0 +1,129 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Ignore allure results
+allure-results/
+
+# Ignore build directory
+build/
+
+# Ignore target directory (Maven builds)
+target/
+
+# Ignore Maven target directory (build output)
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore build directories from other tools
+build/
+
+# Ignore JDK related files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore logs
+*.log
+
+# Ignore temporary files (OS or IDE generated)
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore Maven wrapper files (if not used)
+.mvn/
+.mvnw*
+!mvnw
+
+# Ignore Gradle wrapper files (if not used)
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore JAR files created during build (if not using them in version control)
+*.jar
+
+# Ignore IntelliJ IDEA run configurations
+.idea/runConfigurations/
+
+# Ignore test reports
+test-output/
+
+# Ignore coverage reports
+*.gcov
+*.lcov
+*.clover
+*.hypothesis
+*.tdd
+*.coverage
+
+# Ignore project-specific configuration files (e.g., logging, config files that are local)
+config/*
+!config/application.properties
+
+# Ignore local dependencies (e.g., local Maven repository or Gradle cache)
+.m2/
+.gradle/
+
+# Ignore JetBrains metadata (editor config files)
+.idea/
+.vscode/
+
+# Ignore Gradle Wrapper Jar
+gradle-wrapper.jar
+
+# Ignore Maven Wrapper Jar
+mvnw
+
+# Ignore system-specific files
+*.bak
+*.tmp
+
+
+
