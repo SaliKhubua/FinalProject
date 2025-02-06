@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AmazonTest" verbose="1">
+
+
+    <test name ="TestNegativeCases">
+        <classes>
+            <class name="TestCases.NegativeTestCase"/>
+        </classes>
+    </test>
+
+    <test name="TestOrder">
+        <classes>
+            <class name="TestCases.OrderTest"/>
+        </classes>
+    </test>
+
+    <test name="TestUser">
+        <classes>
+            <class name="TestCases.UserTest"/>
+        </classes>
+    </test>
+
+
+</suite>
